@@ -207,7 +207,7 @@ def decode_file(path: str, T_us: int = 250, max_start: int = 10000) -> List[Dict
 if __name__ == "__main__":
     import sys
     if len(sys.argv) < 2:
-        print("Usage: python ford_v0.py <file.sub>")
+        print("Usage: python Fordv0.py <file.sub>")
         raise SystemExit(2)
 
     frames = decode_file(sys.argv[1], T_us=250)

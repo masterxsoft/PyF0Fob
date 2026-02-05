@@ -264,7 +264,7 @@ def read_sub_pulses(path):
 
 def main(argv):
     if len(argv) != 2:
-        print("Usage: python decode.py <file.sub>")
+        print("Usage: python VAG.py <file.sub>")
         return 2
 
     pulses = read_sub_pulses(argv[1])
