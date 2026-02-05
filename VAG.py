@@ -293,8 +293,8 @@ def main(argv):
         tcnt = bytes([pt[5],pt[6],pt[4]]) 
         last   = pt[7] 
         
-        print("Key1:%s  Key2:%s  Btn:%02X(%s)  Serial:%s  Cnt:%s  CRC:%s  LAST:%s"
-              % (fr.key1_hex(), fr.key2_hex(), fr.btn(), fr.btn_name(), serial.hex(), tcnt.hex(), fr.crc_hex(), hex(last)))
+        print("Key1:%s  Key2:%s  Btn:%02X(%s)  Serial:%s  Cnt:%s  CRC:%s "
+              % (fr.key1_hex(), fr.key2_hex(), fr.btn(), fr.btn_name(), serial.hex(), tcnt.hex(), fr.crc_hex()))
 
     cnt = Counter((fr.key1_hex() + fr.key2_hex()) for fr in frames)
     print("\nDone! Frames: %d  Unique: %d" % (len(frames), len(cnt)))
