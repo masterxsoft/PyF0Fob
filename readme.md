@@ -1,10 +1,10 @@
 Pure Python Decoder for Ford & VAG KeyFobs, decodes Flipper Zero Raw .SUB File.
 
-There are 2 example .sub Files to test the decoder
+There are 3 example .sub Files to test the decoder
 
 USAGE:
 --------
-Fordv0:
+Fordv0 decoder:
 
 "python Fordv0.py 0000_Ford_ts_x4.sub"
 
