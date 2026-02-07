@@ -26,4 +26,5 @@ Don't know if chksum calculation is correctly implemented, but is working for th
 
 -
 
-it's based/inspired by RocketGods ProtoPirate :
+
+it's based/inspired by RocketGods ProtoPirate
