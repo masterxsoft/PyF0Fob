@@ -22,7 +22,7 @@ example VAG Encoder:
 
 this script generates a new valid unlock code based on the output of "python VAG.py Golf4.sub".
 you can verify it against the output from Golf4.sub.
-Don't know if chksum calculation is correctly implemented, but is working for this Sample)
+Don't know if chksum calculation is correctly implemented, but is working for this Sample.
 
 -
 
