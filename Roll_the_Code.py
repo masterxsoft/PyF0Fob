@@ -26,7 +26,7 @@ serial = pt[0:4]
 counter = bytes([pt[5],pt[6],pt[4]]) 
 last   = pt[7]           
 
-print("fob sn:" + serial.hex().upper())
+print("fob sn: " + serial.hex().upper())
 print("counter:" + counter.hex().upper())
 print("last:", f"{last:02X}")
 print("RAW-KEY: " + KEY1 + KEY2)
@@ -53,7 +53,7 @@ print("AUT64 Output: " + AUT64.hex(" ").upper())
 #--- increment counter & set unlock end
 
 last   = pt_new[7]  #changed
-print("fob sn:" + serial.hex().upper())
+print("fob sn: " + serial.hex().upper())
 print("counter:" + counter.hex().upper())
 print("last:", f"{last:02X}")
 new_key ="C0" + str(AUT64[0:8].hex().upper())+chk_sum
