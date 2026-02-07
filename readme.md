@@ -15,13 +15,14 @@ VAG (VW, Audi, Seat Skoda) with full AUT64 decoder:
 "python VAG.py Golf4.sub"
 
 -
+
 example VAG Encoder:
 
 "VAG_Roll_the_Code.py"
-
 this script generates a new valid unlock code based on the output of "python VAG.py Golf4.sub".
 you can verify it against the output from Golf4.sub.
 Don't know if CHKSUM calculation is correctly implemented, but is working for this Sample)
--
-it's based/inspired by RocketGods ProtoPirate :)
 
+-
+
+it's based/inspired by RocketGods ProtoPirate :
